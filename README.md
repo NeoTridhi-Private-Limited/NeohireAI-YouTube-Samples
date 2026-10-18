@@ -31,6 +31,8 @@ Or use **Code > Download ZIP** on GitHub to get everything without git.
 The videos are independent explanations, not affiliated with or endorsed by the authors of the readings;
 please read the originals.
 
-The sample code is released under the [MIT License](LICENSE).
+The sample code is our own, written for the videos, and is released under the [MIT License](LICENSE).
+The articles, papers and courses it explains belong to their authors; this repository contains no text or code
+copied from them. Where a sample follows the design of someone's open-source code, its README credits it.
 
 NeoTridhi: AI training and AI solutions. NeohireAI: AI hiring for all industries. https://NeohireAI.com
