@@ -20,6 +20,28 @@ Playlist: https://www.youtube.com/playlist?list=PLMxleK2kIm3E
 | 7 | [Your AI Product Needs Evals](https://www.youtube.com/watch?v=KkCtx5uLOAA) | Hamel Husain, Your AI Product Needs Evals | [v07_evals](agent-reading-list/v07_evals) |
 | 8 | [Neural Networks Zero to Hero](https://www.youtube.com/watch?v=OPtVDOZxu_g) | Andrej Karpathy, Neural Networks: Zero to Hero | [v08_zero_to_hero](agent-reading-list/v08_zero_to_hero) |
 
+## Cloud Security: Microsoft vs Google Cloud vs AWS
+
+A complete cloud security programme, each control shown in Azure, Google Cloud and AWS.
+Playlist: https://www.youtube.com/playlist?list=PLaQnnozboy20
+
+The Python files run offline (standard library only). The shell, Terraform and policy files are
+illustrative configuration examples that were not run: check the current Microsoft, Google Cloud and AWS
+documentation and replace every placeholder before you use them.
+
+| # | Video | Sample |
+|---|---|---|
+| 1 | [Cloud Security Foundations](https://www.youtube.com/watch?v=ymNE2anxOB4) | [v01_foundations](cloud-security/v01_foundations) |
+| 2 | [Cloud IAM Security](https://www.youtube.com/watch?v=inmMC0HYxSk) | [v02_identity](cloud-security/v02_identity) |
+| 3 | [Zero Trust Explained](https://www.youtube.com/watch?v=A3G1OyioFLI) | [v03_zero_trust](cloud-security/v03_zero_trust) |
+| 4 | [Cloud Network Security](https://www.youtube.com/watch?v=vYkvdS-gZEE) | [v04_network](cloud-security/v04_network) |
+| 5 | [Cloud Data Protection](https://www.youtube.com/watch?v=7oehulSBDDs) | [v05_data_protection](cloud-security/v05_data_protection) |
+| 6 | [Threat Detection and Posture (CSPM)](https://www.youtube.com/watch?v=G0mUGP33bgU) | [v06_threat_detection](cloud-security/v06_threat_detection) |
+| 7 | [SIEM and SOAR Explained](https://www.youtube.com/watch?v=cdmIabGg6CI) | [v07_siem_soar](cloud-security/v07_siem_soar) |
+| 8 | [Container and Supply Chain Security](https://www.youtube.com/watch?v=A4I4sPt-6DA) | [v08_workloads](cloud-security/v08_workloads) |
+| 9 | [Cloud Governance](https://www.youtube.com/watch?v=RIA3b2r7isA) | [v09_governance](cloud-security/v09_governance) |
+| 10 | [Cloud Incident Response](https://www.youtube.com/watch?v=cMqLRM7gsqs) | [v10_incident_response](cloud-security/v10_incident_response) |
+
 ## How to run
 
     git clone <this repository>

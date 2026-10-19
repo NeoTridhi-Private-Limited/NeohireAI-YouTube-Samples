@@ -1,0 +1,8 @@
+# Illustrative, not run here: check the current docs
+# Only images attested by our CI pipeline may run
+globalPolicyEvaluationMode: ENABLE
+defaultAdmissionRule:
+  evaluationMode: REQUIRE_ATTESTATION
+  enforcementMode: ENFORCED_BLOCK_AND_AUDIT_LOG
+  requireAttestationsBy:
+  - projects/my-project/attestors/built-by-ci

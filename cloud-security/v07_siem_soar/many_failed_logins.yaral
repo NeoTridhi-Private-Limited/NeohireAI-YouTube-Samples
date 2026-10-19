@@ -1,0 +1,16 @@
+// Illustrative, not run here: check the current docs
+rule many_failed_logins {
+  meta:
+    description = "More than ten failed logins for one user in 10 min"
+    severity = "Medium"
+  events:
+    $e.metadata.event_type = "USER_LOGIN"
+    $e.security_result.action = "FAIL"
+    $e.principal.user.userid = $user
+  match:
+    $user over 10m
+  outcome:
+    $failures = count($e.metadata.id)
+  condition:
+    $failures > 10
+}
