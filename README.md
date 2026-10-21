@@ -42,6 +42,26 @@ documentation and replace every placeholder before you use them.
 | 9 | [Cloud Governance](https://www.youtube.com/watch?v=RIA3b2r7isA) | [v09_governance](cloud-security/v09_governance) |
 | 10 | [Cloud Incident Response](https://www.youtube.com/watch?v=cMqLRM7gsqs) | [v10_incident_response](cloud-security/v10_incident_response) |
 
+## Crack the HR Interview
+
+Free answer sheets for the HR interview course: every question with a structure for a strong answer.
+Write your own answers under each question, keep them true, and say them aloud before the interview.
+
+| # | Topic | Answer sheet |
+|---|---|---|
+| 1 | Tell me about yourself | [v01_tell_me_about_yourself](hr-interview/v01_tell_me_about_yourself) |
+| 2 | Strengths, weaknesses, why should we hire you | [v02_strengths_weaknesses_why_us](hr-interview/v02_strengths_weaknesses_why_us) |
+| 3 | STAR stories | [v03_star_stories](hr-interview/v03_star_stories) |
+| 4 | Stress, pressure and curveballs | [v04_stress_and_pressure](hr-interview/v04_stress_and_pressure) |
+| 5 | Conflict, teamwork and leadership | [v05_conflict_teamwork_leadership](hr-interview/v05_conflict_teamwork_leadership) |
+| 6 | Career gaps and job switches | [v06_gaps_and_switches](hr-interview/v06_gaps_and_switches) |
+| 7 | Salary research and expected CTC | [v07_salary_research_and_ranges](hr-interview/v07_salary_research_and_ranges) |
+| 8 | Offers, counter-offers and walking away | [v08_offers_counters_and_walking_away](hr-interview/v08_offers_counters_and_walking_away) |
+| 9 | Freshers and campus interviews | [v09_freshers_campus](hr-interview/v09_freshers_campus) |
+| 10 | Bank, PSU and MBA panels, group discussions | [v10_formal_panel](hr-interview/v10_formal_panel) |
+| 11 | Video and AI interviews | [v11_video_and_ai_interviews](hr-interview/v11_video_and_ai_interviews) |
+| 12 | Tricky, illegal and ethical questions | [v12_tricky_illegal_ethical](hr-interview/v12_tricky_illegal_ethical) |
+
 ## How to run
 
     git clone <this repository>
