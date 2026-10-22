@@ -62,6 +62,22 @@ Write your own answers under each question, keep them true, and say them aloud b
 | 11 | Video and AI interviews | [v11_video_and_ai_interviews](hr-interview/v11_video_and_ai_interviews) |
 | 12 | Tricky, illegal and ethical questions | [v12_tricky_illegal_ethical](hr-interview/v12_tricky_illegal_ethical) |
 
+## Git and Scion
+
+Sample repos and pipeline files for the Git and Scion series: why Anthropic built Scion, Git from zero to GitHub,
+pipelines from commit to deployment, GitHub alternatives and cost, and the future of source control.
+Each folder's README lists the commands from the video. The practice repos are shipped without their `.git`
+history: rebuild it by following the commands in each README. Scion itself is Anthropic's internal system and
+is not released; nothing here is Scion code.
+
+| # | Topic | Sample |
+|---|---|---|
+| 1 | Why Anthropic built Scion | [v01_why_scion](git-and-scion/v01_why_scion) |
+| 2 | Git from zero to GitHub | [v02_git_basics](git-and-scion/v02_git_basics) |
+| 3 | From commit to deployment | [v03_commit_to_deploy](git-and-scion/v03_commit_to_deploy) |
+| 4 | GitHub alternatives and real cost | [v04_hosts_and_cost](git-and-scion/v04_hosts_and_cost) |
+| 5 | The future of source control | [v05_future](git-and-scion/v05_future) |
+
 ## How to run
 
     git clone <this repository>

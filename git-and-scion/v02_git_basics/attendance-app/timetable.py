@@ -1,0 +1,1 @@
+CLASS_START = "9:15"

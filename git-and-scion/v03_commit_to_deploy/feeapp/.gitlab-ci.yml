@@ -1,0 +1,16 @@
+default:
+  image: python:3.12
+stages: [test, build, deploy]
+test:
+  stage: test
+  script: [python -m unittest -v]
+build:
+  stage: build
+  script: [python build.py]
+  artifacts: {paths: [dist/]}
+deploy:
+  stage: deploy
+  script: [python deploy.py]
+  environment: production
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

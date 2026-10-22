@@ -1,0 +1,16 @@
+name: agent-ci
+on:
+  push:
+    branches: ["agent/**"]
+jobs:
+  test-orders:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: services/orders
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m py_compile services/orders/orders.py

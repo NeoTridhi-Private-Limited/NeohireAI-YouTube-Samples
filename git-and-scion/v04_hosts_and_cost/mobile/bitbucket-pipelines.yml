@@ -1,0 +1,18 @@
+image: python:3.12
+pipelines:
+  default:
+    - step:
+        name: Test
+        script:
+          - python -m unittest -v
+  branches:
+    main:
+      - step:
+          name: Test
+          script:
+            - python -m unittest -v
+      - step:
+          name: Deploy
+          deployment: production
+          script:
+            - python deploy.py
